@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"				"bimo's Administration Tool"
+	"version"			"1"
+	"up_date"			""
+	"author_name"			"bimo"
+	"author_url"			"bimostudios.com"
+	"info"				"bimo's Administration Stick."
+	"override"			"0"
+}
