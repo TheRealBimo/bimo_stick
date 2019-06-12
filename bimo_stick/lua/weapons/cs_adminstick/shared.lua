@@ -2,17 +2,17 @@
 if (SERVER) then
 	AddCSLuaFile( "shared.lua" )
 else
-    SWEP.PrintName = "bimo's Administration Tool"
+    SWEP.PrintName = "Bimo's Administration Tool"
     SWEP.Slot = 0
     SWEP.SlotPos = 5
     SWEP.DrawAmmo = false
     SWEP.DrawCrosshair = true
 end
  
-SWEP.Author = "bimo"
+SWEP.Author = "Bimo"
 SWEP.Instructions = "Right click to open menu, Left click to fire."
-SWEP.Contact        = ""
-SWEP.Purpose        = ""
+SWEP.Contact        = "therealbimo@gmail.com"
+SWEP.Purpose        = "Administrative Stick"
 SWEP.FirstPersonGlowSprite = Material("sprites/light_glow02_add_noz");
 SWEP.ThirdPersonGlowSprite = Material("sprites/light_glow02_add");
  

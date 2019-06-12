@@ -48,12 +48,7 @@ StickConfig.KickPlayerOnRemove = false
 StickConfig.GroupsCanUse = {
 	"mod",
     "admin",
-	"senioradmin",
-	"headadmin",
-	"staffmanager",
-	"servermanager",
-	"divisionmanager",
-	"developer",
+	"superadmin",
 	"owner",
 }
 
@@ -80,17 +75,17 @@ end
 
 StickConfig.LimitedToGroups = {} // A list of tools and the user group it is limited to
 
-StickConfig.LimitedToGroups["[A] Repair Vehicle"] = {"admin", "senioradmin", "headadmin", "staffmanager", "servermanager", "divisionmanager", "developer",  "owner"}
-StickConfig.LimitedToGroups["[A] Restore Your Health"] = {"admin", "senioradmin", "headadmin", "staffmanager", "servermanager",  "owner"}
-StickConfig.LimitedToGroups["[A] Restore Health"] = {"admin", "senioradmin", "headadmin", "staffmanager", "servermanager", "owner"}
-StickConfig.LimitedToGroups["[M] Announce Server Restart"] = {"servermanager", "divisionmanager", "developer",  "owner"}
-StickConfig.LimitedToGroups["[M] Reload Map"] = {"servermanager", "divisionmanager", "developer",  "owner"}
-StickConfig.LimitedToGroups["[M] Print Target Position"] = {"servermanager", "divisionmanager", "developer", "owner"}
-StickConfig.LimitedToGroups["[M] Print Entity Position"] = {"servermanager", "divisionmanager", "developer",  "owner"} 
-StickConfig.LimitedToGroups["[SA] Remover"] = {"senioradmin", "headadmin", "staffmanager", "servermanager", "divisionmanager", "developer",  "owner"}
-StickConfig.LimitedToGroups["[SA] God Mode"] = {"senioradmin", "headadmin", "staffmanager", "servermanager", "divisionmanager", "developer",  "owner"}
-StickConfig.LimitedToGroups["[SA] Gimp Player"] = {"senioradmin", "headadmin", "staffmanager", "servermanager", "divisionmanager", "developer",  "owner"}
-StickConfig.LimitedToGroups["[SA] Ungimp Player"] = {"senioradmin", "headadmin", "staffmanager", "servermanager", "divisionmanager", "developer",  "owner"}
+StickConfig.LimitedToGroups["[A] Repair Vehicle"] = {"admin", "superadmin", "owner"}
+StickConfig.LimitedToGroups["[A] Restore Your Health"] = {"admin", "superadmin", "owner"}
+StickConfig.LimitedToGroups["[A] Restore Health"] = {"admin", "superadmin", "owner"}
+StickConfig.LimitedToGroups["[O] Announce Server Restart"] = {"owner"}
+StickConfig.LimitedToGroups["[O] Reload Map"] = {"owner"}
+StickConfig.LimitedToGroups["[O] Print Target Position"] = {"owner"}
+StickConfig.LimitedToGroups["[O] Print Entity Position"] = {"owner"} 
+StickConfig.LimitedToGroups["[SA] Remover"] = {"superadmin",  "owner"}
+StickConfig.LimitedToGroups["[SA] God Mode"] = {"superadmin","owner"}
+StickConfig.LimitedToGroups["[SA] Gimp Player"] = {"superadmin","owner"}
+StickConfig.LimitedToGroups["[SA] Ungimp Player"] = {"superadmin","owner"}
 
 // A list of disabled tools. Add the name of the tool here to prevent it from loading.
 StickConfig.DisabledTools = {
